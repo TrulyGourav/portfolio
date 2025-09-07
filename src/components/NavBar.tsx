@@ -99,7 +99,7 @@ const NavBar = () => {
               ))}
               <div className="pt-2">
                 <a
-                  href="mailto:gourav.singh@example.com"
+                  href="mailto:gourav.oct@gmail.com"
                   className="btn-primary w-full text-center"
                   onClick={() => setIsOpen(false)}
                 >
