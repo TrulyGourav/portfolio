@@ -11,7 +11,7 @@ const Experience = () => {
             Professional Experience
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            My journey through various roles and companies, building scalable software solutions
+            Java | Spring Boot | Node.js | Python | CI/CD | Aws Cloud | Microservices
           </p>
         </div>
 

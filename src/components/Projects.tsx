@@ -22,7 +22,8 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A showcase of my recent work and side projects demonstrating various technologies and architectures
+            {/* A showcase of my recent work and side projects demonstrating various technologies and architectures */}
+            {/* FinTech | Entertainment | Business */}
           </p>
         </div>
 

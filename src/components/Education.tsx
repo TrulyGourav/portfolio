@@ -11,7 +11,7 @@ const Education = () => {
             Education
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            My academic journey in computer science and technology
+            OOPs | Data Structures | Algorithms | Operating Systems | Databases | Networking
           </p>
         </div>
 
