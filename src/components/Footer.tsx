@@ -87,7 +87,7 @@ const Footer = () => {
               })}
             </div>
             <p className="text-muted-foreground text-sm">
-              Available for freelance opportunities
+              Available for collaboration & freelance opportunities
             </p>
           </div>
         </div>
