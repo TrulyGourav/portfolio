@@ -60,12 +60,12 @@ const NavBar = () => {
               </Link>
             ))}
             
-            <a
+            {/* <a
               href="mailto:gourav.oct@gmail.com"
               className="btn-primary"
             >
               Hire Me
-            </a>
+            </a> */}
           </div>
 
           {/* Mobile menu button */}

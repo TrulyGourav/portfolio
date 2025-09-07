@@ -74,6 +74,22 @@ const Projects = () => {
                 </div>
               </div>
 
+              {/* Tech Stack */}
+              <div>
+                {/* <h4 className="text-sm font-semibold text-foreground mb-3">Tech Stack</h4> */}
+                <div className="flex flex-wrap gap-2">
+                  {project.technologies.map((tech, idx) => (
+                    <span
+                      key={idx}
+                      className="px-3 py-1 bg-muted text-muted-foreground text-xs font-medium rounded-full border border-border hover:border-primary transition-colors"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+                <br/>
+              </div>
+
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 {project.description}
               </p>
@@ -95,28 +111,13 @@ const Projects = () => {
                   </ul>
                 </div>
               )}
-
-              {/* Tech Stack */}
-              <div>
-                <h4 className="text-sm font-semibold text-foreground mb-3">Tech Stack</h4>
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1 bg-muted text-muted-foreground text-xs font-medium rounded-full border border-border hover:border-primary transition-colors"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
             </div>
           ))}
         </div>
 
         <div className="text-center mt-12">
           <a
-            href="https://github.com/gouravsingh"
+            href="https://github.com/TrulyGourav"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"

@@ -61,6 +61,11 @@ const Hero = () => {
                       className="w-full h-full object-cover rounded-full"
                     />
                   </div>
+                  {/* <br />
+                  <p className="hidden md:block">
+                    High on caffein
+                    and productivity ~ sincerely
+                  </p> */}
                 </div>
               </div>
 
@@ -113,20 +118,20 @@ const Hero = () => {
                   className="flex flex-col sm:flex-row gap-4 animate-slide-up"
                   style={{ animationDelay: "0.8s" }}
                 >
-                  <button onClick={scrollToProjects} className="btn-primary">
+                  <button onClick={scrollToProjects} className="btn-outline">
                     View My Work
                   </button>
                   <Link to="/tech-stack" className="btn-primary text-center">
                     View Tech Stack
                   </Link>
-                  <a
+                  {/* <a
                     href="/resume.pdf"
                     download
                     className="btn-outline flex items-center gap-2"
                   >
                     <Download className="w-4 h-4" />
                     Download Resume
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
