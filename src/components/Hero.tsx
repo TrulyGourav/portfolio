@@ -68,7 +68,7 @@ const Hero = () => {
               <div className="space-y-3 text-center md:text-left">
                 <h3 className="pb-4 hero-title">{personalInfo.name}</h3>
 
-                <h3 className="text-2xl md:text-4xl font-semibold text-secondary animate-slide-up">
+                <h3 className="text-xl md:text-2xl font-semibold text-secondary animate-slide-up">
                   {personalInfo.title}
                 </h3>
 

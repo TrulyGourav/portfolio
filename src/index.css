@@ -92,7 +92,7 @@
 @layer components {
   /* Hero Text Effects */
   .hero-title {
-    @apply text-6xl md:text-8xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent;
+    @apply text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent;
     background-size: 200% 200%;
     animation: gradient-shift 3s ease-in-out infinite;
   }

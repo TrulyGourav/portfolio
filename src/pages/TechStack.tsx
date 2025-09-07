@@ -13,12 +13,6 @@ const TechStack = () => {
       gradient: 'from-blue-500 to-purple-600'
     },
     {
-      title: 'Frontend Development',
-      icon: Code2,
-      items: techStack.frontend,
-      gradient: 'from-green-500 to-blue-500'
-    },
-    {
       title: 'Backend Development',
       icon: Wrench,
       items: techStack.backend,
@@ -35,6 +29,12 @@ const TechStack = () => {
       icon: Cloud,
       items: techStack.cloud.concat(techStack.tools),
       gradient: 'from-cyan-500 to-blue-500'
+    },
+    {
+      title: 'Frontend Development',
+      icon: Code2,
+      items: techStack.frontend,
+      gradient: 'from-green-500 to-blue-500'
     },
     {
       title: 'Computer Science Concepts',
