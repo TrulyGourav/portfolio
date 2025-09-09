@@ -53,9 +53,9 @@ const Experience = () => {
                       </div>
                     </div>
                     
-                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                    {/* <p className="text-muted-foreground mb-6 leading-relaxed">
                       {exp.description}
-                    </p>
+                    </p> */}
                     
                     {/* Key Achievements */}
                     {exp.achievements && exp.achievements.length > 0 && (

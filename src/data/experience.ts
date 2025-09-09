@@ -11,7 +11,7 @@ export const experience = [
       "Supported development of cloud-based SaaS platform, improving threat visibility, observability and incident response readiness",
       "Optimized API performance and database queries for better system efficiency"
     ],
-    technologies: ["Java", "Spring Boot", "Microservices", "REST APIs", "Cloud Technologies"]
+    technologies: ["Python", "Cybersecurity", "Java", "Spring Boot", "Microservices", "REST APIs", "Aws"]
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const experience = [
       "Reduced new hire ramp-up time by 50% through mentoring and best practices",
       "Built scalable healthcare platform features"
     ],
-    technologies: ["Java", "Spring Boot", "MySQL", "System Architecture"]
+    technologies: ["Java", "Spring Boot", "Node.js", "MongoDB", "System Architecture", "Aws"]
   },
   {
     id: 3,
