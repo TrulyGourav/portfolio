@@ -13,9 +13,10 @@ export const education = [
   {
     id: 2,
     degree: "Senior Secondary/Intermediate",
-    field: "Science (80.6%)",
-    institution: "SKET PJ Jindal Vidya Niketan",
-    location: "Bhilai, India", 
+    field: "Science",
+    institution: "Shri OP Jindal Vidya Niketan",
+    cgpa: "80.6 %",
+    location: "Bhuj, India", 
     startDate: "Jul 2018",
     endDate: "Jun 2019",
     description: "Focus on Mathematics, Physics, and Chemistry with strong foundation in analytical thinking."
