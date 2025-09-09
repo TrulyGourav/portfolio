@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowDown, Github, Linkedin, Code2, Download } from "lucide-react";
+import { SiLeetcode } from 'react-icons/si';
 import { personalInfo } from "../data/personalInfo";
 import profilePic from "../assets/profile-pic.jpeg";
 import { Link } from "react-router-dom";
@@ -21,7 +22,7 @@ const Hero = () => {
     {
       name: "LeetCode",
       url: personalInfo.socialLinks.leetcode,
-      icon: Code2,
+      icon: SiLeetcode,
       color: "hover:text-white hover:bg-orange-500",
     },
   ];
@@ -85,7 +86,7 @@ const Hero = () => {
                 </p>
 
                 <p
-                  className="text-lg text-muted-foreground max-w-xl animate-slide-up"
+                  className="text-md text-muted-foreground max-w-xl animate-slide-up"
                   style={{ animationDelay: "0.4s" }}
                 >
                   {personalInfo.bio}
@@ -115,7 +116,7 @@ const Hero = () => {
 
                 {/* CTA Buttons */}
                 <div
-                  className="flex flex-col sm:flex-row gap-4 animate-slide-up"
+                  className="flex flex-col sm:flex-row gap-4 md:justify-start justify-center animate-slide-up"
                   style={{ animationDelay: "0.8s" }}
                 >
                   <button onClick={scrollToProjects} className="btn-outline">
