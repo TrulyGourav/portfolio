@@ -97,7 +97,7 @@ const NavBar = () => {
                   {link.name}
                 </Link>
               ))}
-              <div className="pt-2">
+              {/* <div className="pt-2">
                 <a
                   href="mailto:gourav.oct@gmail.com"
                   className="btn-primary w-full text-center"
@@ -105,7 +105,7 @@ const NavBar = () => {
                 >
                   Hire Me
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         )}
