@@ -8,7 +8,7 @@ export const education = [
     location: "Vadodara, India",
     startDate: "Aug 2019",
     endDate: "Apr 2023",
-    description: "Comprehensive study in computer science fundamentals, software engineering, and emerging technologies."
+    description: "Comprehensive study in Computer Science fundamentals, Software Engineering, and emerging technologies. Built leadership and public speaking skills through various events and active participation."
   },
   {
     id: 2,
